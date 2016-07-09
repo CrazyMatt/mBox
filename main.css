@@ -1,166 +1,26 @@
 body {
 	background-color: grey;
 }
-div.page {
-	margin-left: 120px;
-	margin-right: 120px;
-	background-color: white;
-	margin-top: 50px;
-	margin-bottom: 50px;
-}
-div.title {
-	top: 0px;
-	left: 0px;
-	height: 130px;
-	width: 972px;
-	background-color: white;
-}
-div.nav {
-	height: 5000px;
-	width: 150px;
-}
 div.msgbox {
 	padding: 15px;
-    text-align: center;
-    border: 2px solid #CCCCCC;
-    border-radius: 25px;
-    width: 300px ;
-    background-color: #EAEAEA;
-    margin-top: 175px;
-    margin-left: auto ;
-    margin-right: auto ;
+	text-align: center;
+	border: 2px solid #CCCCCC;
+	border-radius: 25px;
+	width: 300px ;
+	background-color: #EAEAEA;
+	margin-top: 175px;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 div.b1 {
 	border: 2px solid #CCCCCC;
 	width: 20px;
-    margin-left: auto ;
-    margin-right: auto ;
-}
-span.grey {
-	background-color: #CCCCCC
-}
-a:hover.nav {
-	background-color: white;
-	font-family: arial, verdana, sans-serif;
-	text-decoration: none;
-	color: grey;
-	font-size: 20px;
-	animation: navLink 20s;
-	-webkit-animation: navLink 20s;
-}
-a:link.nav {
-	background-color: white;
-	font-family: arial, verdana, sans-serif;
-	text-decoration: none;
-	color: grey;
-	font-size: 20px;
-}
-a:visited.nav {
-	background-color: white;
-	font-family: arial, verdana, sans-serif;
-	text-decoration: none;
-	color: grey;
-	font-size: 20px;
-}
-a:active.nav {
-	background-color: white;
-	font-family: arial, verdana, sans-serif;
-	text-decoration: none;
-	color: grey;
-	font-size: 20px;
-}
-p.nav {
-	background-color: white;
-	font-family: arial, verdana, sans-serif;
-	text-decoration: none;
-	color: grey;
-	font-size: 20px;
-}
-@keyframes navLink {
-	0% {background-color: white;}
-	5% {background-color: #6699FF;}
-	15% {color: white;}
-	95% {background-color: #6699FF;}
-	100% {background-color: white;color: grey;}
-}
-@-webkit-keyframes navLink {
-	0% {background-color: white;}
-	5% {background-color: #6699FF;}
-	15% {color: white;}
-	95% {background-color: #6699FF;}
-	100% {background-color: white;color: grey;}
-}
-div.articleBox {
-	top: 180px;
-	left: 300px;
-	width: 800px;
-	height: 4999px;
-	background-color: white;
-	position: absolute;
-}
-div.article {
-	width: 790px;
-	left: 5px;
-	right: 5px;
+	margin-left: auto ;
+	margin-right: auto ;
 }
 p.article {
 	font-family: arial, verdana, sans-serif;
 	font-size: 14px;
-}
-arttext {
-	font-family: arial, verdana, sans-serif;
-	font-size: 14px;
-}
-h2.article {
-	font-family: arial, verdana, sans-serif;
-}
-a.googleMap {
-	font-family: arial, verdana, sans-serif;
-	text-decoration: none;
-}
-p.facebookLink {
-	font-family: arial, verdana, sans-serif;
-	font-size: 16px;
-	text-decoration: none;
-}
-p.formErrorFake {
-	color: red;
-}
-legend.contactForm {
-	font-family: arial, verdana, sans-serif;
-	font-size: 14px;
-}
-button {
-	background-color: #6699FF;
-}
-p.articleStand {
-	font-family: arial, verdana, sans-serif;
-	font-size: 15px;
-	color: grey;
-}
-div.articleStand {
-	border-width: 3px;
-	border-color: black;
-}
-p.white {
-	color: white;
-}
-p.articleTNR {
-	font-family: times new roman;
-	font-size: 14px;
-	text-decoration: none;
-}
-a.articleBlue {
-	font-family: arial, verdana, sans-serif;
-	font-size: 14px;
-	color: blue;
-
-}
-a.articleClickForHelp {
-	font-family: arial, verdana, sans-serif;
-	font-size: 14px;
-	color: blue;
-	cursor: help;
 }
 a.msgboxans {
 	font-family: arial, verdana, sans-serif;
