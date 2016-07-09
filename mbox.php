@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Message Box</title>
+		<title><?php echo $_GET["title"];?></title>
 		<link rel="stylesheet" type="text/css" href="main.css" />
 	</head>
 	<body>
